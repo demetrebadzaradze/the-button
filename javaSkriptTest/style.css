@@ -1,0 +1,45 @@
+
+.hh{
+    color: crimson;
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: darkgrey;
+    
+}
+/* CSS styles for the button */
+#MyB {
+    background-color: #af4c4c; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Add padding to give the button some space */
+    font-size: 18px; /* Set the font size */
+    border: none; /* Remove the default button border */
+    border-radius: 50%; /* Make the button round */
+    cursor: pointer; /* Add a cursor on hover */
+    box-shadow: 0 10px 0px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    min-width: 30%; /* Set a minimum width for the button */
+    min-height: 60%;
+  }
+  
+  /* Hover effect */
+  #MyB:hover {
+    background-color: #b63f3f; /* Change the background color on hover */
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Adjust the height as needed */
+  }
+  .con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+  }
+  
+
